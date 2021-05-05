@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{17EAC4C7-6A19-4924-95B6-55C1626394B2}") = "Solution Items", "Solution Items", "{824FE140-E250-4C54-9744-863F42A6FF67}"
+	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+		README.md = README.md
+        .gitignore = .gitignore
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{112E38F7-C78C-4EB0-962D-C6C389279A30}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feliz.MSAL", "src\Feliz.MSAL\Feliz.MSAL.fsproj", "{7BDD2233-7601-4CC8-A282-3B885F453756}"

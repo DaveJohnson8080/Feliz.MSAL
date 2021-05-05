@@ -1,0 +1,12 @@
+type project
+licenseExpression MIT
+licenseUrl https://licenses.nuget.org/MIT
+projectUrl https://github.com/DaveJohnson8080/Feliz.MSAL
+tags
+    f# fable bindings feliz react msal
+dependencies
+    FSharp.Core >= LOCKEDVERSION
+    Feliz >= LOCKEDVERSION
+files
+    *.fsproj ==> fable
+    *.fs ==> fable
