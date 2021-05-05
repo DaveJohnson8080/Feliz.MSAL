@@ -43,7 +43,7 @@ Target.create "Clean" (fun _ ->
 )
 
 Target.create "DotNetRestore" (fun _ ->
-  DotNet. restore id "Feliz.MSAL.sln"
+  DotNet.exec id "paket" "restore" |> getExitCode |> failIfNonZero
 )
 
 Target.create "Build" (fun _ ->
