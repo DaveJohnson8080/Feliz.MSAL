@@ -25,6 +25,10 @@ open Fake.IO.Globbing.Operators
 open Fake.IO.FileSystemOperators
 open Fake.JavaScript
 
+let versionFromTag =
+    match (Environment.environVarOrNone "APPVEYOR_REPO_TAG_NAME") with
+    | Some s -> s
+    | None -> "1.0.0"
 
 let getExitCode (res: ProcessResult) =
   res.ExitCode
@@ -53,13 +57,13 @@ Target.create "Build" (fun _ ->
 )
 
 Target.create "Pack" (fun _ ->
-  DotNet.exec id "paket" "pack dist" |> getExitCode |> failIfNonZero
+  DotNet.exec id "paket" (versionFromTag |> sprintf "pack --version %s dist") |> getExitCode |> failIfNonZero
 )
 
 Target.create "UpdatePackages" (fun _ ->
   DotNet.exec id "paket" "update" |> getExitCode |> failIfNonZero
-  Npm.exec "up" (fun c -> { c with WorkingDirectory = "docs-app" } )
-  DotNet.exec id "femto" "--resolve docs-app/src" |> getExitCode |> failIfNonZero
+  Npm.exec "up" (fun c -> { c with WorkingDirectory = "demo" } )
+  DotNet.exec id "femto" "--resolve demo/src" |> getExitCode |> failIfNonZero
 )
 
 Target.create "UpdateFemtoVersionMetadata" (fun _ ->
