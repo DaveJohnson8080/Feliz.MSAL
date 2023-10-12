@@ -1,11 +1,12 @@
 #r "paket:
     nuget System.Text.Json
-    nuget FSharp.Core
+    nuget FSharp.Core < 7
     nuget Fake.Core.ReleaseNotes
     nuget Fake.Core.Target
     nuget Fake.DotNet.Cli
     nuget Fake.IO.FileSystem
-    nuget Fake.JavaScript.Npm"
+    nuget Fake.JavaScript.Npm
+    nuget Microsoft.Build.Framework < 17"
 #load ".fake/build.fsx/intellisense.fsx"
 #r "netstandard"
 
