@@ -9,12 +9,12 @@ Project("{17EAC4C7-6A19-4924-95B6-55C1626394B2}") = "Solution Items", "Solution 
 		paket.dependencies = paket.dependencies
 		paket.lock = paket.lock
 		README.md = README.md
-        .gitignore = .gitignore
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{112E38F7-C78C-4EB0-962D-C6C389279A30}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0438D978-31C9-4067-A611-B8020C8E6A1D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feliz.MSAL", "src\Feliz.MSAL\Feliz.MSAL.fsproj", "{7BDD2233-7601-4CC8-A282-3B885F453756}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Feliz.MSAL", "src\Feliz.MSAL\Feliz.MSAL.fsproj", "{895A55C8-5993-4A52-B7FA-50E36CF173DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,20 +29,20 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|x64.Build.0 = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Debug|x86.Build.0 = Debug|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|x64.ActiveCfg = Release|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|x64.Build.0 = Release|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|x86.ActiveCfg = Release|Any CPU
-		{7BDD2233-7601-4CC8-A282-3B885F453756}.Release|x86.Build.0 = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|x64.Build.0 = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|x64.ActiveCfg = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|x64.Build.0 = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7BDD2233-7601-4CC8-A282-3B885F453756} = {112E38F7-C78C-4EB0-962D-C6C389279A30}
+		{895A55C8-5993-4A52-B7FA-50E36CF173DF} = {0438D978-31C9-4067-A611-B8020C8E6A1D}
 	EndGlobalSection
 EndGlobal

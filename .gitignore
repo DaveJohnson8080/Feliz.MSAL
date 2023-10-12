@@ -17,3 +17,6 @@ release.sh
 .paket/
 dist/
 build.fsx.lock
+*.fs.js
+*.fs.js.map
+src/Feliz.MSAL/fable_modules/

@@ -3,12 +3,12 @@
 
 # Feliz.MSAL
 
-[Feliz](https://github.com/Zaid-Ajaj/Feliz)-style Fable React bindings for [MSAL-React](http://aka.ms/aadv2).
+[Feliz](https://github.com/Zaid-Ajaj/Feliz)-style Fable React bindings for [MSAL-React](https://github.com/AzureAD/microsoft-authentication-library-for-js).
 
 Contributing
 ------------
 
-This project uses `fake`, `paket`, and `femto` as .NET Core 3 local tools. Therefore, run `dotnet tool restore` to restore the necessary CLI tools before doing anything else.
+This project uses `fake`, `paket`, and `femto` as .NET Core 6 local tools. Therefore, run `dotnet tool restore` to restore the necessary CLI tools before doing anything else.
 
 To run targets using Fake: `dotnet fake build -t TargetName`
 

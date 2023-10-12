@@ -1,12 +1,11 @@
 namespace Feliz
 
 open System.ComponentModel
+open System
+open System.Collections.Generic
 open Fable.Core
 open Fable.Core.JsInterop
 open Fable.React
-open Feliz
-open System
-open System.Collections.Generic
 
 [<EditorBrowsable(EditorBrowsableState.Never)>]
 module Object =
